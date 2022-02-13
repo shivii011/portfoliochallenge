@@ -1,0 +1,139 @@
+
+body{ 
+    background-color: antiquewhite;
+     font-family: 'Space Mono', monospace;
+}
+.heading{
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    
+}
+.main-heading{
+    font-family: 'Kaushan Script', cursive;
+text-align: center;
+transform: rotate(-10deg) ;
+font-size: 3rem;
+color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FC9918;
+}
+.navbar-item{
+
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+ 
+    font-size:20px;
+    padding: 10px;
+    font-weight: 00;
+}
+.nav-item{
+    text-decoration: none;
+    padding: 10px;
+}
+.text{
+    font-family: 'Space Mono', monospace ,alicitt;
+ text-decoration: none;
+ font-size: 40px;
+
+}
+
+
+.about-content{
+   display: flex;
+    font-size: 24px;
+    color: #464344;
+    justify-content: space-between;
+    margin: 1%;
+}
+.about-content-1{
+    margin-right: 2%;
+    margin-top: 120px;
+
+}
+.icons{
+   justify-content: center;
+   display: flex;
+   
+}
+@media(max-width:480px)
+    {
+        .about-content{
+            flex-direction: column;
+            display: flex;
+        }
+
+    }
+
+.my-img{
+    border-radius: 500px;
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+}
+#about{
+    background-color: #FC9918;
+}
+.main-div{
+    background-color: #FC9918;
+}
+.Skills-content{
+    font-size: 24px;
+}
+.container{
+    width: 50%;
+    background-color: #ddd;
+}
+.skills{
+    text-align: right;
+    color:white;
+    padding-top: 10px,0;
+
+}
+.auto-cadd{
+    background-color: orange;
+    width:80%
+}
+.html{
+    background-color: #FC9918;
+    width:80%;
+
+}
+.CSS{
+    background-color: #FC9918;
+    width:70%;
+
+}
+.Java-Script{
+    background-color: #FC9918;
+    width: 60%;
+}
+.my-img{
+
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.works-img{
+    height: 300px;
+    border-color: #FC9918;}
+#my-resume{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+.logo{
+    height: 24px;
+    margin: 5px;
+
+}
+.logo-1{
+    margin: 5px;
+}
+#Skills{
+    margin-left:20px
+}
